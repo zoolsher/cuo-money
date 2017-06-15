@@ -25,4 +25,4 @@
 - 在手机访问 `{your-local-address}:8017`
 - 你就可以看到下图
 
-![game](http://gitlab.alipay.net/tiny/cuo-money/raw/master/res/images/game.png)
+![game](https://zos.alipayobjects.com/rmsportal/WZauhjxfeqMWJXxZSegi.png)
