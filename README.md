@@ -23,4 +23,4 @@
 - 更改 package.json 中 `"start": "node_modules/.bin/webpack-dev-server --colors --inline --quiet --hot --host 0.0.0.0 --port 8017  --public {your-local-address}:8017"` 你的本机地址。
 - npm run start
 - 在手机访问 `{your-local-address}:8017`
-- 你就可以看到![game](./res/images/game.png)
+- 你就可以看到![game](http://gitlab.alipay.net/tiny/cuo-money/raw/master/res/images/game.png)
