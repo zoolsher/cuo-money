@@ -1,0 +1,20 @@
+{
+  "name": "cuo-money",
+  "version": "0.0.1",
+  "description": "The Tiny.js Game build by tinyjs client",
+  "author": "zoolsher",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --colors --inline --quiet --hot --host 0.0.0.0 --port 8017  --public 10.32.183.54:8017"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ant-tinyjs/tiny.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+  }
+}
