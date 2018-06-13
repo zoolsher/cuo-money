@@ -1,28 +1,30 @@
-# 
+# c-m
 
-> The Tiny.js Game build by tinyjs client
+> The Tiny.js game project build by tinyjs-cli
 
-![](http://tfs.alipayobjects.com/images/rmsweb/T1nqFhXdJcXXXXXXXX.png_120x120)
+![](https://zos.alipayobjects.com/rmsportal/nJBojwdMJfUqpCWvwyoA.png@120w)
 
 ## 命令
 
 - `npm install`: 安装依赖
-- `npm run start`: 本地服务，默认端口：8017
+- `npm start`: 本地服务，默认端口：8017
+- `npm build`: 执行编译
 
 ## 关于 Tiny.js
 
 - `官网`: http://tinyjs.net
-- `指南`: http://tinyjs.net/#/tutorial/start
-- `API`: http://tinyjs.net/docs/
-- `源码`: http://gitlab.alipay-inc.com/tiny/tiny
-- `反馈`: http://gitlab.alipay-inc.com/tiny/tiny/issues
+- `指南`: http://tinyjs.net/guide/start.html
+- `API`: http://tinyjs.net/api/
+
+## 关于标准版
+
+此项目由Tiny.js 本地开发工具 [tinyjs-cli](https://github.com/ant-tinyjs/tinyjs-cli) 使用 [Tiny.js 项目开发模版](https://github.com/ant-tinyjs/wei) 初始化，符合 [webpack 4](https://webpack.js.org/) 标准开发工程流。
+
+项目已集成 [tinyjs-resource-loader](https://github.com/ant-tinyjs/tinyjs-resource-loader)，这是一个用于处理 Tiny.js 游戏资源的 webpack loader，让你更轻松的处理繁杂的资源文件。
+
+当然，你完全可以基于此定制你熟悉的工作流。
 
 
-## setup
-
-- 更改 package.json 中 `"start": "node_modules/.bin/webpack-dev-server --colors --inline --quiet --hot --host 0.0.0.0 --port 8017  --public {your-local-address}:8017"` 你的本机地址。
-- npm run start
-- 在手机访问 `{your-local-address}:8017`
-- 你就可以看到下图
-
-![game](https://zos.alipayobjects.com/rmsportal/WZauhjxfeqMWJXxZSegi.png)
+> 注意：
+>
+> 由于 [tinyjs-resource-loader](http://tinyjs.net/tools/tinyjs-resource-loader.html) 依赖 [ImageMagick](https://www.imagemagick.org/script/download.php)，所以你需要安装 ImageMagick。
